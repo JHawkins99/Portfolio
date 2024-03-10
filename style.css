@@ -1,5 +1,10 @@
-.Profile{
-  border-radius: 20%
+.profile-photo{
+  border-radius: 50%;
+    object-fit: cover;
+    border-width: 2;
+    border-color: white;
+    width:25%
+    
   }
 .icon-square {
   width: 3rem;
@@ -11,16 +16,31 @@
 
 }
 
-.nav{
+.nav-masthead{
   --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    margin-bottom: 0;
+    margin: 0;
+    border:0;
     list-style: none;
 }
 
 .nav-link {
   margin-left: 1rem;
 }
+
+.justify-content-center {
+  justify-content: center !important;}
+
+.text-bg-dark {
+  color: #fff !important;}
+
+.cover-container{
+    background-color:rgba(194, 161, 148, 0.445)
+  }
+
+  .middle-container{
+    justify-content: center;
+  text-align:center;}
