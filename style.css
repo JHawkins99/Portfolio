@@ -12,7 +12,10 @@
   height: 3rem;
   border-radius: 0.75rem;
 }
-
+ .gear-photo{
+  justify-content: center;
+  align-items: center;
+ }
 
 .nav-masthead{
   --bs-nav-link-padding-x: 1rem;
@@ -55,5 +58,9 @@
     margin: 0;
     border:0;
   }
+
+  .software-container{
+    justify-content: center;
+   text-align:center;}
 
 
