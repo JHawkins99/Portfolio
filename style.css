@@ -63,8 +63,6 @@
     justify-content: center;
    text-align:center;}
 
-   #myCarousel{
-    color:black
-   }
-
-
+   .carousel-caption {
+    color: black;
+}
